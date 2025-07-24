@@ -1,0 +1,21 @@
+{
+  "name": "file-manager-demo",
+  "version": "1.0.0",
+  "description": "这是一个基于Node.js和Express的文件管理Web服务，提供文件列表查询、复制和移动功能。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "winston": "^3.17.0"
+  }
+}
